@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.navbar-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.navbar-icon-text {
+  font-family: 'Roboto';
+  color: #12022f;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.navbar-link {
+  font-family: 'Roboto';
+  color: #12022f;
+  font-size: 23px;
+  font-weight: 600;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.navbar-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}

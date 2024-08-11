@@ -1,0 +1,27 @@
+/* Write your CSS code here */
+.li-container {
+  padding: 10px;
+  border-bottom: 1px solid #9aa5b1;
+  width: 100%;
+}
+
+.div-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.date {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}

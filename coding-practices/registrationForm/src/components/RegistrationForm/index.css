@@ -1,0 +1,85 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #ea580c;
+  font-weight: 500;
+}
+
+.card-container {
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 30vw;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.labelEl {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #475569;
+  font-weight: 600;
+}
+
+.inputEl {
+  background-color: transparent;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.pEl {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.submit-btn {
+  background-color: #ea580c;
+  color: #ffffff;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-img {
+  height: 50px;
+  width: 50px;
+}
+
+.success-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+  font-weight: 500;
+  margin-bottom: 30px;
+}

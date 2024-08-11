@@ -1,0 +1,56 @@
+/* Write your CSS code here. */
+.feedback-bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-card-container {
+  background-color: #ffffff;
+  padding: 40px;
+  margin: 20px;
+  border: 0px solid;
+  border-radius: 10px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.feedback-card-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.feedback-card-emojis-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.feedback-card-emojis-container {
+  list-style-type: none;
+}
+
+.feedback-card-love-img {
+  height: 60px;
+}
+
+.feedback-card-love-msg {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.li-emoji-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,17 @@
+.li-el {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px;
+}
+
+.element {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}
+
+.li-el-btn {
+  background-color: transparent;
+  border: none;
+}

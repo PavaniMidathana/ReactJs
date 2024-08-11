@@ -1,0 +1,50 @@
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.item-text-time-accessed {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 5vw;
+}
+
+.item-text-logo {
+  height: 30px;
+  margin-right: 2vw;
+}
+
+.item-text-title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.item-text-domain-url {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.item-del-icon {
+  height: 20px;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-del-btn {
+  background-color: transparent;
+  border: 0px solid;
+}

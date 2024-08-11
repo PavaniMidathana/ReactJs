@@ -1,0 +1,11 @@
+.li-img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.li-btn {
+  background-color: transparent;
+  border: none;
+}

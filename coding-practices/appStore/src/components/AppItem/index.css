@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.li-bg-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 0px;
+  margin: 10px;
+  text-align: center;
+}
+
+.li-image {
+  height: 80px;
+  width: 80px;
+}
+
+.li-heading {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #1e293b;
+}

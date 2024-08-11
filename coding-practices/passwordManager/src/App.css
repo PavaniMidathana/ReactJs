@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pw-bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pw-logo-container {
+  align-self: flex-start;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+.pw-app-logo {
+  height: 70px;
+  width: 200px;
+}
+
+.pm-section1 {
+  background-color: #5763a5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  width: 80vw;
+}
+
+.pm-section1-form {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+}
+
+.pm-section1-form-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.pm-section1-form-input-container {
+  background-color: #f8fafc;
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.pm-section1-form-input-img-container {
+  border-right: 1px solid;
+  height: 100%;
+  width: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pm-section1-form-input-img {
+  height: 15px;
+  width: 15px;
+}
+
+.pm-section1-form-input-element {
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+
+.pm-section1-img {
+  width: 40%;
+}
+
+.pm-section1-form-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.pm-section1-form-add-btn {
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  width: 80px;
+  height: 30px;
+  font-weight: 600;
+}
+
+.pw-section2 {
+  background-color: #5763a5;
+  border-radius: 10px;
+  width: 80vw;
+  padding: 30px;
+  margin-top: 15px;
+}
+
+.pw-section2-top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pw-section2-top-section-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+.pw-section2-top-section-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.pw-section2-top-section-count {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.pm-section2-form-input-container {
+  background-color: #f8fafc;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.pm-section2-form-input-img-container {
+  border-right: 1px solid;
+  height: 100%;
+  width: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.pm-section2-form-input-img {
+  height: 15px;
+  width: 15px;
+}
+
+.pm-section2-form-input-element {
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+
+.pw-section2-hr {
+  border: 0.5px solid #c3caea;
+}
+
+.pw-section2-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.pw-section2-form-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.pw-section2-ul-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+
+.pw-section2-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pw-section2-img {
+  width: 40%;
+}
+
+.pw-section2-p {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}

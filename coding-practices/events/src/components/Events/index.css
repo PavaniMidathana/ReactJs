@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.sec1 {
+  background-color: #475569;
+  padding: 20px;
+  width: 60vw;
+}
+
+.sec1-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.sec1-ul-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.sec2 {
+  width: 40vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

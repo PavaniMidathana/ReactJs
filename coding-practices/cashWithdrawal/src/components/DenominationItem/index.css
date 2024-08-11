@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.li-el {
+  border: 1px solid #c4c4c4;
+  height: 40px;
+  width: 180px;
+  color: #d4d2db;
+  background-color: #382f5a;
+  font-family: 'Roboto';
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}

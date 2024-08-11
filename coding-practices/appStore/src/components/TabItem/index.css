@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.tab-li-btn {
+  color: #7b8794;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px;
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.tab-li-el {
+  border-bottom: 2px solid #dfe2e5;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btn-styles {
+  color: #2563eb;
+}
+
+.li-styles {
+  border-bottom: 2px solid #2563eb;
+}

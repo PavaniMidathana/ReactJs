@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.li-container {
+  margin-bottom: 40px;
+}
+
+.li-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+}
+
+.li-img {
+  height: 180px;
+  width: 320px;
+}
+
+.li-name {
+  font-family: 'Roboto';
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.li-location {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.active-img {
+  border: 2px solid #2dd4bf;
+  border-radius: 7px;
+}

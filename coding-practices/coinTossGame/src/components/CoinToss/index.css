@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.toss-game-bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.toss-game-card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.toss-game-heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.toss-game-p {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.toss-game-img {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.toss-game-btn {
+  background-color: #f9d423;
+  border-radius: 5px;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 10px;
+  border: 0px solid;
+  padding: 7px;
+  font-weight: 500;
+}
+
+.toss-game-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+}
+
+.toss-game-count {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}

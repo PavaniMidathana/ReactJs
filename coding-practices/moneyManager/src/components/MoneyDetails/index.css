@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.item1 {
+  border: 2px solid #84cc16;
+  background-color: #ecfccb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 22vw;
+  border-radius: 15px;
+  padding: 5vh;
+}
+
+.item2 {
+  border: 2px solid #06b6d4;
+  background-color: #cffafe;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 22vw;
+  border-radius: 15px;
+  padding: 5vh;
+}
+
+.item3 {
+  border: 2px solid #7c3aed;
+  background-color: #ede9fe;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 22vw;
+  border-radius: 15px;
+  padding: 5vh;
+}
+
+.item-img {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+
+.item-text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #7e858e;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.item-amount {
+  font-family: 'Roboto';
+  font-size: 21px;
+  font-weight: 500;
+  color: #475569;
+  margin: 0px;
+}

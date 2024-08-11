@@ -1,0 +1,140 @@
+/* Write your CSS here */
+.dt-bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dt-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.dt-timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dt-timer-img-container {
+  height: 90vh;
+  background-size: cover;
+  width: 60vw;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dt-timer-img-text {
+  background-color: #ffffff;
+  border-radius: 70px;
+  padding: 20px;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dt-timer-img-time {
+  color: #00d9f5;
+  font-family: 'Roboto';
+  font-size: 38px;
+  margin: 0px;
+}
+
+.dt-timer-img-state {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 21px;
+  margin: 0px;
+  font-weight: 500;
+}
+
+.dt-timer-btns-container {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+.btn-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.btn-text {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.set-timer-text {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.set-timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.inc-btn {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+}
+
+.time {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  background-image: linear-gradient(to right, lightgreen, #00d9f5);
+  border-radius: 10px;
+  height: 50px;
+  width: 80px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

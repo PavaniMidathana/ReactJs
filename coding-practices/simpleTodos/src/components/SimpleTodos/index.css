@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.todos-bg-container {
+  background-color: #ffc2a0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todos-card-container {
+  background-color: #ffffff;
+  padding-right: 40px;
+  padding-left: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+  width: 500px;
+}
+
+.tods-card-heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.todos-list {
+  list-style-type: none;
+}

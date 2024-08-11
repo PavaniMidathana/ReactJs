@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.card-container1 {
+  border: 2px solid black;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.heading1 {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.card-container2 {
+  border: 2px solid black;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.heading2 {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+}
+
+button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid black;
+  height: 40px;
+  border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.filter-item-li-btn {
+  background-color: transparent;
+  border: none;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.active-css {
+  border: 1px solid #0284c7;
+  border-radius: 10px;
+  color: #0284c7;
+}

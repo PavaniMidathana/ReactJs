@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.item-container {
+  margin: 20px;
+}
+
+.item-image {
+  height: 130px;
+  width: 200px;
+}
+
+.item-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #0f172a;
+  margin: 10px;
+}

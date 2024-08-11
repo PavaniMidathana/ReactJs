@@ -1,0 +1,19 @@
+/* Write your code here. */
+.emoji-li-container {
+  background-color: #ffffff33;
+  border: 2px solid #ffffff30;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.emoji-li-img {
+  height: 80px;
+}
+
+.emoji-li-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}

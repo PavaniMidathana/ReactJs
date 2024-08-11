@@ -1,0 +1,10 @@
+.li-emoji-image {
+  height: 50px;
+  width: 50px;
+}
+
+.li-emoji-text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #1e293b;
+}

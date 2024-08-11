@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.home-bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-bg-container {
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  border: 0px solid;
+  border-radius: 10px;
+  height: 50vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

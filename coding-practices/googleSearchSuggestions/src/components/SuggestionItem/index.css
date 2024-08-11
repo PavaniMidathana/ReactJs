@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.suggestion-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggestion-arrow {
+  height: 15px;
+}
+
+.suggestion-content {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #475569;
+}

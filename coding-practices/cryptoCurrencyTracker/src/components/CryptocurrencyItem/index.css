@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.li-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.li-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-img {
+  height: 20px;
+  width: 20px;
+  margin-left: 30px;
+}
+
+.li-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.li-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-value {
+  color: #ffffff;
+  align-items: center;
+  width: 100px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+}

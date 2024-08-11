@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.li-container {
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: 22vw;
+}
+
+.name-and-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #171f46;
+  margin: 0px;
+}
+
+.star-image {
+  height: 20px;
+  width: 20px;
+}
+
+.date {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.star-img-btn {
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .li-container {
+    width: 80vw;
+  }
+}

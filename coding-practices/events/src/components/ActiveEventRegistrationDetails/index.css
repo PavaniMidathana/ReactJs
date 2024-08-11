@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.no-active-p {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  color: #64748b;
+  align-self: flex-start;
+}
+
+.yet-to-register-img {
+  height: 300px;
+}
+
+.yet-to-register-p {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #64748b;
+  margin: 0px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.yet-to-register-btn {
+  background-color: #0967d2;
+  width: 80%;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+}
+
+.yet-to-register-h {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 23px;
+  color: #323f4b;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.registered-img{
+    height:100px;
+}
